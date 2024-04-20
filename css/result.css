@@ -1,0 +1,26 @@
+#result{
+  display: none;
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  width: 90%;
+  color: rgb(249, 144, 161);
+}
+h2{
+  padding-top: 13px;
+}
+.kakao{
+  color: white;
+  background-color: #FEE500;
+  border: 0px;
+  border-radius: 20px;
+}
+.kakao:hover, .kakao:focus{
+  background-color: whitesmoke;
+  color: #FEE500;
+}
+.resultGoodType, .resultBadType{
+  color: plum;
+  font-size: 15px;
+}

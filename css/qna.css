@@ -1,0 +1,38 @@
+#qna{
+  display: none;
+  background-color: whitesmoke;
+  width: 90%;
+  text-align: center;
+  border-radius: 20px;
+  color: rgb(249, 144, 161);
+}
+.questionBox{
+  font-size: 20px;
+}
+.answerButton{
+  background-color: rgb(250, 178, 190);
+  border-radius: 20px;
+  display: block;
+  width: 90%;
+  border: 0;
+  display :inline-block;
+  margin-top: 10px;
+  padding: 10px 5px 10px 5px;
+}
+.answerButton:hover, .answerButton:focus{
+  background-color: pink;
+  color: whitesmoke;
+}
+.progress{
+  height: 20px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+.progressBar{
+  height: 100%;
+  background: linear-gradient(to bottom,  #fcd4d4 0%,#fcb8b8 50%,#ff8484 100%);
+}
+.progressRate{
+  text-align: center;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="dorami">
+  <meta name="keywords" content="MBTI 유형별 고양이">
+  <meta name="description" content="MBTI 유형별 고양이">
+  <!-- sns share -->
+  <meta property="og:url" content="https://mbtitestcatmeme.netlify.app" />
+  <meta property="og:title" content="MBTI 유형별 고양이" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./img/main.png" />
+  <meta property="og:description" content="MBTI 유형별 고양이" />
+  <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.1/kakao.min.js" integrity="sha384-kDljxUXHaJ9xAb2AzRd59KxjrFjzHa5TAoFQ6GbYTCAG0bjM55XohjjDT7tDDC01" crossorigin="anonymous"></script>
+  
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./img/favicon.ico">
+  <link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
+  <title>MBTI 유형별 고양이</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/default.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/qna.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/result.css">
+</head>
+<body>
+  <div class="container">
+    <section id="main" class="my-5 mx-auto">
+      <h2>고양이로 알아보는 MBTI</h2>
+      <div class="mx-auto">
+        <img src="./img/main.png" alt="mainImage" class="img-fluid">
+      </div>
+      <p>아래 버튼을 눌러 시작해 주세요.</p>
+      <button id="startButton" type="button" class="btn btn-primary mb-4">START</button>
+    </section>
+
+    <section id="qna" class="my-5 py-3 mx-auto">
+      <div class="progressRate"></div>
+      <div class="progress mx-auto">
+        <div class="progressBar"></div>
+      </div>
+      <div class="questionBox mt-2 px-3"></div>
+      <div class="answerBox"></div>
+    </section>
+
+    <section id="result" class=" mx-auto mt-5">
+      <h2>당신의 결과는?</h2>
+      <div class="resultName"></div>
+      <div class="resultImage"></div>
+      <div class="resultDesc my-2 mx-3"></div>
+      <div class="resultGoodType"></div>
+      <div class="resultBadType"></div>
+      <button type="button" id="shareButton" class="kakao my-3 px-2 py-2">공유하기</button>
+    </section>
+
+    <script src="./js/data.js"></script>
+    <script src="./config/apikey.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/share.js"></script>
+  </div>
+</body>
+</html>
