@@ -12,10 +12,10 @@ const resultGoodType = document.querySelector('.resultGoodType');
 const resultBadType = document.querySelector('.resultBadType');
 const shareButton = document.querySelector('#shareButton');
 const lastQuestion = qnaList.length;
-const KAKAO_API = config.apikey
+// const KAKAO_API = config.apikey
 
-Kakao.init(KAKAO_API);
-Kakao.isInitialized();
+// Kakao.init(KAKAO_API);
+// Kakao.isInitialized();
 
 function begin() {
   fadeOut(main);
